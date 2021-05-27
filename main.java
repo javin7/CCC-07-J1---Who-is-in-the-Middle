@@ -2,8 +2,11 @@ public class Main {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
 
+        System.out.println("Enter the weight of the first bowl:");
         int bear1 = in.nextInt();
+        System.out.println("Enter the weight of the second bowl:");
         int bear2 = in.nextInt();
+        System.out.println("Enter the weight of the third bowl:");
         int bear3 = in.nextInt();
 
         int[] bearList = new int[3];
