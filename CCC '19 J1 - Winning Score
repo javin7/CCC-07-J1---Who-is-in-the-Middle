@@ -1,0 +1,29 @@
+import java.util.*;
+
+public class Main {
+	public static void main(String[] args) {
+		
+		Scanner n = new Scanner(System.in);
+		
+		int apples3 = n.nextInt();
+		int apples2 = n.nextInt();
+		int apples1 = n.nextInt();
+		int bananas3 = n.nextInt();
+		int bananas2 = n.nextInt();
+		int bananas1 = n.nextInt();
+		
+		int applesTotal = (apples3 * 3 + apples2 * 2 + apples1);
+		int bananasTotal = (bananas3 * 3 + bananas2 * 2 + bananas1);
+		
+		
+		
+		if (applesTotal > bananasTotal) {
+			System.out.println("A");
+		} else if (bananasTotal > applesTotal) {
+			System.out.println("B");
+		} else {
+			System.out.println("T");
+		}
+		
+	}
+}
